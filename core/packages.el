@@ -13,10 +13,12 @@
 (el-get-bundle ace-jump-mode)
 (el-get-bundle ace-window)
 (el-get-bundle flycheck)
-; (el-get-bundle helm)
 (el-get-bundle jsx-mode)
 (el-get-bundle neotree)
+(el-get-bundle projectile)
 (el-get-bundle smart-mode-line)
+; (el-get-bundle drag-stuff)
+; (el-get-bundle helm)
 
 ; (el-get-self-update)
 (el-get 'sync)

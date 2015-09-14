@@ -6,10 +6,17 @@
         ad-do-it)
     ad-do-it))
 
+; Display line numbers
+(add-hook 'prog-mode-hook 'linum-mode)
+
 (require 'jsx-mode)
 (add-to-list 'auto-mode-alist '("\\.jsx\\'" . jsx-mode))
 
 ; (require 'helm-config)
+
+(require 'projectile)
+(projectile-global-mode)
+; (setq projectile-require-project-root nil)
 
 ;  autosave files in a different directory
 ; http://stackoverflow.com/questions/22175365/gitignore-regex-for-emacs-temporary-files
