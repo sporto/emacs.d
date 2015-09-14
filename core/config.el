@@ -9,6 +9,8 @@
 (require 'jsx-mode)
 (add-to-list 'auto-mode-alist '("\\.jsx\\'" . jsx-mode))
 
+; (require 'helm-config)
+
 ;  autosave files in a different directory
 ; http://stackoverflow.com/questions/22175365/gitignore-regex-for-emacs-temporary-files
 (setq auto-save-file-name-transforms

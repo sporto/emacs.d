@@ -10,9 +10,10 @@
 (add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
 
 ;; Simple package names
-(el-get-bundle ace-window)
 (el-get-bundle ace-jump-mode)
+(el-get-bundle ace-window)
 (el-get-bundle flycheck)
+; (el-get-bundle helm)
 (el-get-bundle jsx-mode)
 (el-get-bundle neotree)
 (el-get-bundle smart-mode-line)
