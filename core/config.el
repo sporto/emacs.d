@@ -10,6 +10,9 @@
 (projectile-global-mode)
 ; (setq projectile-require-project-root nil)
 
+; Disable autosave
+(setq auto-save-default nil)
+
 ;  autosave files in a different directory
 ; http://stackoverflow.com/questions/22175365/gitignore-regex-for-emacs-temporary-files
 (setq auto-save-file-name-transforms

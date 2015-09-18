@@ -13,9 +13,10 @@
 ;; Simple package names
 (el-get-bundle ace-jump-mode)
 (el-get-bundle ace-window)
+(el-get-bundle editorconfig)
 (el-get-bundle flycheck)
-(el-get-bundle web-mode)
 (el-get-bundle neotree)
+(el-get-bundle web-mode)
 (el-get-bundle projectile)
 (el-get-bundle smart-mode-line)
 ; (el-get-bundle drag-stuff)
