@@ -16,9 +16,10 @@
 (el-get-bundle editorconfig)
 (el-get-bundle flycheck)
 (el-get-bundle neotree)
-(el-get-bundle web-mode)
 (el-get-bundle projectile)
+(el-get-bundle rspec-mode)
 (el-get-bundle smart-mode-line)
+(el-get-bundle web-mode)
 ; (el-get-bundle drag-stuff)
 ; (el-get-bundle helm)
 
